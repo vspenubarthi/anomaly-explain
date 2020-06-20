@@ -6,7 +6,7 @@ import unittest
 from typing import Dict, List
 
 import numpy as np
-from conceptnet import *
+from commonsense.conceptnet import *
 
 class TestConceptnet(unittest.TestCase):
     def test_find_anchor(self):
